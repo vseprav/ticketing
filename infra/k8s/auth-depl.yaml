@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: vseprav/auth
+          image: eu.gcr.io/ticketing-dev-295410/auth
 ---
 apiVersion: v1
 kind: Service
