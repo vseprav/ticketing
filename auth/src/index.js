@@ -8,8 +8,8 @@ var body_parser_1 = __importDefault(require("body-parser"));
 var app = express_1.default();
 app.use(body_parser_1.default());
 app.get('/api/users/currentuser', (function (req, res) {
-    res.send('Hi from auth');
+    res.send('Hi From Auth!');
 }));
 app.listen(3000, function () {
-    console.log('Listening port 3000');
+    console.log('Listening port 3000!');
 });
